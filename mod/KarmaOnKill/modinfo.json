@@ -1,0 +1,10 @@
+﻿{
+  "id": "karmaonkill",
+  "name": "Artificer Karma On Kill",
+  "version": "1.0.0",
+  "authors": "TheScaryDoor",
+  "description": "Gives Artificer the ability to gain bonus karma by killing Scavengers. Bonus karma resets after dying or hibernating. Max karma can be reconfigured in the remix menu.<LINE><LINE>Credit to UraniumCarrot126 and Dual-Iron for the sun hat sprite.",
+  "requirements": [],
+  "requirements_names": [],
+  "checksum_override_version": false
+}
