@@ -92,7 +92,7 @@ namespace KarmaOnKill
         private void CreatureDieHook(On.Creature.orig_Die orig, Creature self)
         {
             if (enableKarmaOnKill && self is Scavenger
-                && self?.killTag.creatureTemplate.type == CreatureTemplate.Type.Slugcat
+                && self.killTag?.creatureTemplate.type == CreatureTemplate.Type.Slugcat
                 && !creaturesSeen.Contains(self.abstractCreature.ID.number))
             {
                 creaturesSeen.Add(self.abstractCreature.ID.number);  // Explosions cause multiple deaths of the same creature for some reason.

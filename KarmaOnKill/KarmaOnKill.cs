@@ -7,7 +7,7 @@ using System.Security.Permissions;
 
 namespace KarmaOnKill
 {
-    [BepInPlugin("thescarydoor.karmaonkill", "KarmaOnKill", "1.0.0")]
+    [BepInPlugin("thescarydoor.karmaonkill", "KarmaOnKill", "1.0.1")]
     public partial class KarmaOnKill : BaseUnityPlugin
     {
         private bool enableKarmaOnKill = false;
